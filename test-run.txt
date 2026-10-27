@@ -1,0 +1,118 @@
+Testing 01-evidence-span-checker
+Testing 02-numeric-answer-checker
+Testing 03-delivery-reconciler
+Testing 04-revision-conflict-detector
+Testing 05-annotation-agreement
+Testing 06-pairwise-preference-report
+Testing 07-dataset-leakage-check
+Testing 08-agent-trace-auditor
+Testing 09-json-output-validator
+Testing 10-retrieval-ranking-evaluator
+Testing 11-evaluation-regression-gate
+Testing 12-human-review-queue
+All 12 projects passed tests and demo runs.
+
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+test_boundary (test_main.EvaluationTests.test_boundary) ... ok
+test_case_1 (test_main.EvaluationTests.test_case_1) ... ok
+test_case_2 (test_main.EvaluationTests.test_case_2) ... ok
+test_case_3 (test_main.EvaluationTests.test_case_3) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

@@ -1,0 +1,86 @@
+[
+  [
+    "01-evidence-span-checker",
+    "Evidence Span Checker",
+    "Check whether a cited quotation exists in the cited source.",
+    "Exact whitespace-normalized matching verifies quotation presence, not whether the quote supports a claim. No web retrieval.",
+    "Add source page and section identifiers; test an authentic-looking quote paired with an unrelated claim."
+  ],
+  [
+    "02-numeric-answer-checker",
+    "Numeric Answer Checker",
+    "Compare a reported quantity against a reference after unit conversion.",
+    "Supports only m/mm and kg/g; absolute tolerance is in the reference unit. Does not validate engineering designs.",
+    "Add a test for a tolerance boundary and support centimetres with dimensional validation."
+  ],
+  [
+    "03-delivery-reconciler",
+    "Delivery Reconciler",
+    "Compare ordered and delivered mass by zone and bar diameter.",
+    "Synthetic mass reconciliation only. Repeated ticket IDs are rejected; tickets must already be legible and transcribed. No OCR or compliance verdict.",
+    "Add a duplicate-ticket rejection test and separate rejected/illegible tickets from accepted records."
+  ],
+  [
+    "04-revision-conflict-detector",
+    "Revision Conflict Detector",
+    "Find field changes between two structured document revisions.",
+    "Compares JSON records by ID; cannot decide which revision is authorized. Duplicate record IDs are rejected.",
+    "Add revision dates and an explicit source-priority rule; keep conflicts visible until a human resolves them."
+  ],
+  [
+    "05-annotation-agreement",
+    "Annotation Agreement Calculator",
+    "Calculate raw agreement and Cohen kappa for two annotators.",
+    "Assumes aligned, categorical labels for the same items and two raters. Undefined kappa returns null; tiny samples are not reliable quality estimates.",
+    "Add item IDs and a disagreement review queue; explain why high raw agreement can still mislead."
+  ],
+  [
+    "06-pairwise-preference-report",
+    "Pairwise Preference Report",
+    "Summarize human A/B preferences, ties, and invalid votes.",
+    "Summarizes supplied votes; does not judge answers, remove position bias, or establish statistical significance.",
+    "Add blinded model IDs, randomized answer positions, and confidence intervals for enough independent votes."
+  ],
+  [
+    "07-dataset-leakage-check",
+    "Dataset Leakage Check",
+    "Find normalized exact duplicates shared by train and evaluation sets.",
+    "Catches exact text after case and whitespace normalization only. Misses paraphrases, semantic leakage, and overlaps inside larger documents.",
+    "Add near-duplicate detection and compare its false positives with exact matching."
+  ],
+  [
+    "08-agent-trace-auditor",
+    "Agent Trace Auditor",
+    "Flag unapproved actions, repeated failed calls, and budget overruns in recorded agent traces.",
+    "Offline policy checks over a synthetic event schema. Approval applies to the exact action ID. Not a live agent, security boundary, or sandbox.",
+    "Add tests for unrelated approvals and repeated failed calls. Design expiring, single-use approval semantics."
+  ],
+  [
+    "09-json-output-validator",
+    "Structured Output Validator",
+    "Check flat JSON responses for required fields, field types, and unexpected keys.",
+    "Small fixed type system, not a JSON Schema implementation. No nested objects, ranges, or semantic correctness checking.",
+    "Add nested validation or adopt a full schema library, then document the tradeoff."
+  ],
+  [
+    "10-retrieval-ranking-evaluator",
+    "Retrieval Ranking Evaluator",
+    "Measure precision, recall, and reciprocal rank for retrieved document IDs.",
+    "Evaluates retrieval IDs against supplied relevance labels, not answer faithfulness. Duplicates are removed in ranking order.",
+    "Evaluate multiple queries and report averages with a documented no-relevant-documents policy."
+  ],
+  [
+    "11-evaluation-regression-gate",
+    "Evaluation Regression Gate",
+    "Compare baseline and candidate pass/fail results on the same test IDs.",
+    "Rejects missing or added cases for comparability. Uses fixed synthetic booleans, not a statistical significance test or live model benchmark.",
+    "Add severity weights and repeated runs for nondeterministic model outputs."
+  ],
+  [
+    "12-human-review-queue",
+    "Human Review Queue",
+    "Rank evaluation cases using explicit severity and confidence rules.",
+    "A deterministic triage heuristic; confidence is supplied rather than calibrated. Not an autonomous hiring, medical, or legal decision system.",
+    "Add reviewer disposition and audit history; check whether the priority rule overloads the queue."
+  ]
+]

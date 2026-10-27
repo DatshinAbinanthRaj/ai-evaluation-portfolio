@@ -34,13 +34,16 @@ Use `python3` on macOS/Linux if needed. Each project can also run independently.
 | [Human Review Queue](12-human-review-queue/README.md) | Rank evaluation cases using explicit severity and confidence rules. |
 
 ## Portfolio honesty
+## Data and scope
 
-All records are fictional. No employer data, client documents, or private evaluation instructions are included. The outputs illustrate rules on small fixtures; they are not accuracy claims. Explain AI assistance and your own changes clearly in interviews. Do not describe these as deployed client work.
+The projects use synthetic sample data and deterministic Python checks
+to demonstrate evaluation workflows. Each project documents its inputs,
+outputs, tests, and technical limitations.
 
-## Start here
+## Documentation
 
-- TODAY_PLAN.md: run, learn, publish, and apply.
-- LINKEDIN_DRAFTS.md: overview plus 12 project drafts; publish after hands-on review.
-- INTERVIEW_PREP.md: demonstration and technical questions.
-- VALIDATION.md: recorded checks for this release.
-- Each project README: commands, boundaries, and a meaningful next contribution.
+- Browse the project folders for individual READMEs and examples.
+- Run `python run_all.py` to execute the demos and tests.
+- See `VALIDATION.md` for recorded test results.
+
+ext contribution.

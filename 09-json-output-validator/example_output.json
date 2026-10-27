@@ -1,0 +1,7 @@
+{
+  "valid": false,
+  "errors": [
+    "score: wrong type",
+    "extra: unexpected"
+  ]
+}

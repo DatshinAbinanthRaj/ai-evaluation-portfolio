@@ -1,0 +1,10 @@
+[
+  {
+    "id": "c1",
+    "status": "quote_present"
+  },
+  {
+    "id": "c2",
+    "status": "quote_missing"
+  }
+]

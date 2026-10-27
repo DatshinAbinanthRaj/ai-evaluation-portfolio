@@ -1,0 +1,9 @@
+{
+  "regressions": [
+    "q1"
+  ],
+  "improvements": [
+    "q2"
+  ],
+  "gate": "fail"
+}

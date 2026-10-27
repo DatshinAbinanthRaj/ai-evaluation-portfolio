@@ -1,0 +1,13 @@
+{
+  "budget": 0.05,
+  "events": [
+    {
+      "type": "tool",
+      "tool": "send",
+      "action_id": "a1",
+      "requires_approval": true,
+      "status": "ok",
+      "cost": 0.1
+    }
+  ]
+}

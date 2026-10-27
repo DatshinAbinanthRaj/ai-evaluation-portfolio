@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "zone": "A",
+      "diameter_mm": 16,
+      "kg": 1000
+    },
+    {
+      "zone": "A",
+      "diameter_mm": 12,
+      "kg": 500
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T1",
+      "zone": "A",
+      "diameter_mm": 16,
+      "kg": 950
+    }
+  ]
+}

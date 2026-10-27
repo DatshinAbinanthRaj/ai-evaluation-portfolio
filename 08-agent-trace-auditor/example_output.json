@@ -1,0 +1,10 @@
+{
+  "cost": 0.1,
+  "over_budget": true,
+  "flags": [
+    {
+      "event": 0,
+      "issue": "missing_approval"
+    }
+  ]
+}

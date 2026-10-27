@@ -1,0 +1,11 @@
+{
+  "schema": {
+    "answer": "string",
+    "score": "integer"
+  },
+  "value": {
+    "answer": "Pass",
+    "score": true,
+    "extra": "x"
+  }
+}

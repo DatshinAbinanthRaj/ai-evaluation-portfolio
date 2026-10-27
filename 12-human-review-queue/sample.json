@@ -1,0 +1,15 @@
+{
+  "cases": [
+    {
+      "id": "case1",
+      "severity": "high",
+      "confidence": 0.8
+    },
+    {
+      "id": "case2",
+      "severity": "low",
+      "confidence": 0.4,
+      "disagreement": true
+    }
+  ]
+}

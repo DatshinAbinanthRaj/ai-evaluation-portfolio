@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "spec": "Delivery is due on 12 November."
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "source_id": "spec",
+      "quote": "12 November"
+    },
+    {
+      "id": "c2",
+      "source_id": "spec",
+      "quote": "15 November"
+    }
+  ]
+}

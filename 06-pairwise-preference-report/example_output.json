@@ -1,0 +1,7 @@
+{
+  "A": 2,
+  "B": 1,
+  "ties": 1,
+  "invalid": 1,
+  "A_win_rate_excluding_ties": 0.6667
+}

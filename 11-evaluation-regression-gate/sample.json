@@ -1,0 +1,10 @@
+{
+  "baseline": {
+    "q1": true,
+    "q2": false
+  },
+  "candidate": {
+    "q1": false,
+    "q2": true
+  }
+}

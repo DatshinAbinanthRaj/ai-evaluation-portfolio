@@ -1,0 +1,5 @@
+{
+  "precision_at_k": 0.3333,
+  "recall_at_k": 0.5,
+  "reciprocal_rank_at_k": 0.5
+}

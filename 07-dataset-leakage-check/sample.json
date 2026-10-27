@@ -1,0 +1,10 @@
+{
+  "train": [
+    "Steel mass calculation",
+    "Source check"
+  ],
+  "evaluation": [
+    "steel   MASS calculation",
+    "New question"
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "case1",
+    "priority": 31.0,
+    "reasons": [
+      "high_severity"
+    ]
+  },
+  {
+    "id": "case2",
+    "priority": 16.0,
+    "reasons": [
+      "low_confidence",
+      "annotator_disagreement"
+    ]
+  }
+]

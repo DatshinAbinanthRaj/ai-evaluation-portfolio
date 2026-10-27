@@ -1,0 +1,14 @@
+{
+  "a": [
+    "pass",
+    "pass",
+    "fail",
+    "fail"
+  ],
+  "b": [
+    "pass",
+    "fail",
+    "fail",
+    "fail"
+  ]
+}

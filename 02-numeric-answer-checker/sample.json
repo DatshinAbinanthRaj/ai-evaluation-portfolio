@@ -1,0 +1,7 @@
+{
+  "reference": 1.2,
+  "reference_unit": "m",
+  "candidate": 1190,
+  "candidate_unit": "mm",
+  "tolerance": 0.005
+}

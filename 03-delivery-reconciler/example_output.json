@@ -1,0 +1,16 @@
+[
+  {
+    "zone": "A",
+    "diameter_mm": 12,
+    "ordered_kg": 500.0,
+    "delivered_kg": 0.0,
+    "variance_kg": -500.0
+  },
+  {
+    "zone": "A",
+    "diameter_mm": 16,
+    "ordered_kg": 1000.0,
+    "delivered_kg": 950.0,
+    "variance_kg": -50.0
+  }
+]

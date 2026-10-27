@@ -1,0 +1,10 @@
+[
+  {
+    "id": "A-01",
+    "field": "length_mm",
+    "old": 320,
+    "new": 480,
+    "old_present": true,
+    "new_present": true
+  }
+]

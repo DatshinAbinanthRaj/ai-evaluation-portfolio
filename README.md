@@ -1,20 +1,24 @@
 # AI Evaluation Portfolio — Datshin
 
-Twelve small Python projects exploring evidence checking, numerical verification, evaluation data quality, and agent trace review.
+A collection of 12 Python tools for evidence verification, numerical validation, annotation quality analysis, retrieval evaluation, and agent trace auditing.
 
-**AI-assisted learning portfolio • Synthetic data • No paid API • No external Python dependencies**
+Each project includes sample data, automated tests, JSON outputs, and documentation.
 
-These are working baseline demos, not production AI systems. They do not train or call an LLM. The aim is to make evaluation rules inspectable and practice turning judgment into repeatable checks. This collection was scaffolded with ChatGPT; personal improvements should be recorded in CHANGELOG.md as they are made.
+**Python 3.10+ • Standard library only • No API keys required**
 
 ## Quick start
 
-Install Python 3.10 or newer, unzip this collection, and open a terminal in this folder.
+Download or clone this repository, open a terminal in its main folder, and run:
 
 ```sh
 python run_all.py
 ```
 
-Use `python3` on macOS/Linux if needed. Each project can also run independently. Begin with project 02, then 03 and 08. No API keys, pip installs, or environment variables are needed.
+Use `python3` on macOS/Linux if needed. Each project can also run independently using the instructions in its README.
+
+## Technical scope
+
+The tools apply deterministic rules and metrics to supplied data and recorded outputs. They use synthetic sample datasets and run locally without calling or training an LLM.
 
 ## Projects
 
@@ -33,7 +37,6 @@ Use `python3` on macOS/Linux if needed. Each project can also run independently.
 | [Evaluation Regression Gate](11-evaluation-regression-gate/README.md) | Compare baseline and candidate pass/fail results on the same test IDs. |
 | [Human Review Queue](12-human-review-queue/README.md) | Rank evaluation cases using explicit severity and confidence rules. |
 
-## Portfolio honesty
 ## Data and scope
 
 The projects use synthetic sample data and deterministic Python checks
